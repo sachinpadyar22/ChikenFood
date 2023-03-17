@@ -1,0 +1,364 @@
+/*------------------------------------Header start------------------------------------*/
+body{
+    scroll-behavior: smooth;
+}
+.nav{
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.nav_logo:hover{
+    color: hsl(248, 65%, 71%);
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+}
+.nav_item{
+    margin-top: 20px;
+    transform: translatey(0px);
+    transition: .3s;
+    
+}
+.nav_item:hover{
+    transform: translatey(-6px);
+    transition: .3s;
+}
+.nav_link{
+    color: hsl(0, 0%, 0%);
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Phudu', cursive;
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+  
+}
+.nav_link:hover{
+    border-bottom:  2px solid black;
+    transition: .5s;
+  
+  
+}
+.nav_list i{
+    display: none;
+    transition: .5s;
+}
+/*------------------------------------Header end------------------------------------*/
+
+
+/*------------------------------------Home start------------------------------------*/
+.home{
+    background: url('./public/Images/background.jpg');
+   height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content{
+    margin-left: 20%;
+    padding-top: 30%;
+}
+.home .row .col-sm h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.home .row .col-sm blockquote{
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.home .row .col-sm blockquote span{
+    font-size: .8rem;
+    font-weight: 600;
+    border-bottom: 2px solid green;
+}
+.input-group .form-control{
+    border-radius: 20px 0 ;
+}
+.input-group button{
+    border-radius: 20px 0;
+     background: black;
+     color: white;
+}
+
+.home .row .col-sm img{
+    margin-left: 140px;
+    padding-top: 100px;
+}
+/*------------------------------------Home end------------------------------------*/
+
+/*------------------------------------order section start------------------------------------*/
+.poster .order_content h2{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 4em;
+    padding-top: 40px;
+}
+.poster .order_content p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Phudu', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+.poster .order_content p span{
+    color: green;
+}
+.poster .container .row{
+    display: flex;
+}
+.poster .container .row .col{
+    background: rgb(84, 84, 84);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 400px;
+    height: 68vh;
+    transition: .5s;
+    
+    
+}
+.poster .container .row .col:hover {
+    box-shadow: inset 0 0 10px rgb(0, 0, 0);
+    transform: translatey(-5px);
+    transition: .5s;
+    
+    
+}
+.poster .container .row .col .image{
+    text-align: center;
+}
+.poster .container .row .col img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 300px ;
+}
+.poster .container .row .col h4{
+    font-weight: 700;
+    color: white;
+}
+.poster .container .row .col h4 span{
+    color: green;
+}
+.poster .container .row .col span{
+    color: white;
+}
+.poster .container .row .col span p{
+    color: black;
+   
+}
+.poster .container .row .col button{
+    background: orange;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+.explore{
+    background-image: url('./public/Images/production-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.production .order_content h2{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+    padding-top: 40px;
+}
+.production .order_content p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Phudu', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+.production .order_content p span{
+    color: green;
+}
+
+.production .production_image img{
+    width:30rem;
+    border-radius: 50px;
+    margin: 10px;
+}
+.slider{
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+.boxes{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    transition: 2s;
+    border-radius: 30px;
+   
+   
+}
+.boxes::-webkit-scrollbar{
+    display: none;
+
+ }
+ .boxes .box{
+    position: relative;
+    min-width: 200px;
+    min-height: 200px;
+    border: 1px solid black;
+    margin-right: 13px;
+    background: rgb(58, 53, 53);
+    border-radius: 50px 10px 10px 10px;
+    transform: translatey(0px);
+    transition: .3s;
+}
+.boxes .box:hover{
+    transform: translatey(-10px);
+    transition: .5s;
+}
+.boxes .box:nth-last-child(1){
+    margin-right: 0px;
+}
+.boxes .box .dis{
+    position: relative;
+    width: 150px;
+    top: -15px;
+    left: -30px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+}
+.boxes .box h4{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+}
+.boxes .box h5{
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.boxes .box p{
+    color: rgb(51, 138, 51);
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.boxes .box .rate_cart{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+.boxes .box .rate_cart h6{
+    font-size: 17px;
+    color: white;
+}
+.boxes .box .rate_cart h6 span{
+    color: green;
+}
+.boxes .box .rate_cart button{
+    border: none;
+    color: white;
+    background: transparent;
+    font-size: 25px;
+    margin-top: -15px;
+}
+.boxes .box .rate_cart button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+.control{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.control i{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.about .order_content h2{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 4em;
+    padding-top: 40px;
+}
+.about .order_content p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Phudu', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+.about .order_content p span{
+    color: green;
+}
+.about .container .row .col img{
+    width: 300px;
+    text-align: center;
+}
+.about .container .row .col span{
+    
+    font-size: 40px;
+    color: green;
+    
+}
+.about .container .row .col blockquote{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.about .container .row .col p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.about .container .row .col a{
+    border: none;
+    background: transparent;
+    color: green;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+
+
+
+/*------------------------------Media Querys-------------------------------*/
