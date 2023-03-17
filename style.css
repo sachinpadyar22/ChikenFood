@@ -394,7 +394,7 @@ body{
     .nav_link{
         color: hsl(220, 8%, 76%);
         font-size: 1.10rem;
-        border-radius: 5rem;
+       
         text-decoration: none;
     }
     
