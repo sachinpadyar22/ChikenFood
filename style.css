@@ -133,7 +133,7 @@ body{
     border-radius: 10px;
     border: 1px solid gray;
     width: 400px;
-    height: 68vh;
+    height: 75vh;
     transition: .5s;
     
     
@@ -203,7 +203,7 @@ body{
 .production .production_image img{
     width:30rem;
     border-radius: 50px;
-    margin: 10px;
+    padding: 10px;
 }
 .slider{
     margin-left: 50px;
@@ -376,7 +376,7 @@ body{
         position: fixed;
         bottom: -2rem;
         background-color: hsl(220, 32%, 16%, .8 ) ;
-        width: 100%;
+        width: 90%;
         border-radius: 3rem 3rem 0 0 ;
         backdrop-filter: blur(10px);
         left: 50%;
@@ -399,4 +399,35 @@ body{
     
     
    
+}
+@media (max-width:494px){
+    .nav_link{
+       
+        font-size: 1rem;
+        
+    }
+    
+    .nav_item{
+     
+        margin-left: -34px;
+        
+      
+    }
+}
+@media (max-width:400px){
+    .nav_link{
+       
+        font-size: 0.7rem;
+        
+    }
+    
+    .nav_item{
+     
+        margin-left: -40px;
+        
+      
+    }
+    .nav_menu{
+    width: 343px;
+    }
 }
