@@ -106,6 +106,13 @@ body{
 /*------------------------------------Home end------------------------------------*/
 
 /*------------------------------------order section start------------------------------------*/
+.poster{
+    background: url('./public/Images/about-back.jpg');
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .poster .order_content h2{
     font-family: 'Dancing Script', cursive;
     color: rgb(0, 0, 0);
@@ -397,6 +404,10 @@ body{
        
         text-decoration: none;
     }
+    .about .container .row {
+        display: flex;
+        flex-direction: column;
+    }
     
     
    
@@ -431,4 +442,14 @@ body{
     .nav_menu{
     width: 343px;
     }
+}
+@media (max-width:575px){
+    .content{
+        margin-left: 8%;
+        padding-top: 30%;
+    }
+    .nav_logo{
+        padding-left: 20px;
+    }
+    
 }
