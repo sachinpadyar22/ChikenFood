@@ -12,12 +12,13 @@ body{
     font-size: 2rem;
     text-decoration: none;
     color: black;
-    font-weight: 500;
+    font-weight: 800;
     transition: .4s;
+    font-family: 'Great Vibes', cursive;
 }
 
 .nav_logo:hover{
-    color: hsl(248, 65%, 71%);
+    color: red;
 }
 
 .nav_list{
