@@ -96,11 +96,8 @@
       
       <div class="input-group mb-3 w-75 rounded">
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-        <button class="input-group-text" id="inputGroup-sizing-default">Search</button>
-      
+        <button class="input-group-text" id="inputGroup-sizing-default" >Search</button>
       </div>
-    
-      
       </div>
       </div>
       <div class="col-sm">
@@ -329,7 +326,7 @@
       <div class="row d-flex">
         <div class="col text-center">
           <div class="image">
-            <img src="./public/Images/about.jpg" alt="">
+            <img src="./public/Images/about.jpg" class="rounded rounded-4" alt="">
           </div>
         </div>
         <div class="col">
@@ -345,7 +342,33 @@
     </div>
 
   </section>
+  <section class="contact">
+
+    <div class="order_content">
+      <h2>Give your Phone number and get a 20% Discount</h2>
+      <p>Makes a offer for chicken lovers<span>health food for healthy Life</span></p>
+      <br><br><br>
+    </div>
+    <img src="./public/Images/discount1.png" width="200" alt="">
+    <div class="input-group mb-3 w-25 m-auto rounded">
+      <input type="text" id="details" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      <button class="input-group-text bg-success" id="inputGroup-sizing-default" onclick="SaveClick()" >Save</button>
+    </div>
+  </section>
   
+  <footer class="footer">
+    <h3>Find more.... <span> quality of food</span></h3>
+    <div class="social_icons text-center pt-4">
+      <a href=""><span class="bi bi-envelope"></span></a>
+      <a href=""><span class="bi bi-facebook"></span></a>
+      <a href=""><span class="bi bi-instagram"></span></a>
+      <a href=""><span class="bi bi-twitter"></span></a>
+      
+      
+
+    </div>
+
+  </footer>
 
 
 
@@ -402,7 +425,16 @@
     myModal.show();
   
    });
-  
+   
+  function SaveClick(){
+    let input=document.getElementById("details").value;
+    if(input==""){
+      alert(`plz provide mobile number and Email`);
+    }
+    else{
+      alert('register successfull get your discount on cart')
+    }
+  }
    
   
   </script>
