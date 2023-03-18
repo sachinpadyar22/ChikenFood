@@ -468,6 +468,12 @@ body{
         
       
     }
+    .slider{
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
 }
 @media (max-width:400px){
     .nav_link{
@@ -485,6 +491,12 @@ body{
     .nav_menu{
     width: 343px;
     }
+    .slider{
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
 }
 @media (max-width:575px){
     .content{
@@ -494,5 +506,11 @@ body{
     .nav_logo{
         padding-left: 20px;
     }
+    .slider{
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
     
 }
