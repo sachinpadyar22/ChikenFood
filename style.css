@@ -413,8 +413,13 @@ body{
     border-radius: 50%;
    
 }
-.footer{
-    padding-bottom: 20%;
+
+.footer blockquote{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 50px;
+
 }
 /*------------------------------Media Querys-------------------------------*/
 @media (max-width:768px){
@@ -566,6 +571,9 @@ body{
         
         font-size: 3em;
        
+    }
+    .footer{
+        padding-bottom: 20%;
     }
 
 }
