@@ -515,6 +515,40 @@ body{
         color: black;
         
     }
+    .poster .container .row .col{
+        background: #d7d7d7;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        width: 400px;
+        height: 75vh;
+        transition: .5s;
+        
+        
+    }
+    .poster .container .row .col h4{
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+    .poster .container .row .col h4 span{
+        color: rgb(2, 56, 2);
+    }
+    .poster .container .row .col span{
+        color: rgb(0, 0, 0);
+    }
+    .poster .container .row .col span p{
+        color: black;
+       
+    }
+    .poster .container .row .col:hover {
+        box-shadow: inset 0 0 10px rgb(0, 0, 0);
+        transform: translatey(-5px);
+        transition: .5s;
+        
+        
+    }
+
 }
 
 
